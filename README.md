@@ -1,10 +1,21 @@
-#Discord Announcement Script
+# Discord Announcement Script
 This is a really simple script that uses the Discord's channel webhook feature to make it easier for you to annouce to multiple channels.
 
 
-#requirements
+# Requirements
+Python is on your machine.
+
+### Windows
+Search Python in the Windows Store, Get the latest version.
+
+### Linux
+
+<code> apt-get install python3 -y </code>
+
+### Other Libs
 Ensure requests for python is installed.
-```pip3 install requests```
+
+<code> pip3 install requests </code>
 
 
 #Set-up

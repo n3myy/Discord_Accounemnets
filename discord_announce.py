@@ -1,11 +1,12 @@
-import requests
 #=========================================#
 #    N3my's Dicord quick announcements    #
 #        v1.0.0|harry@room01.co.uk        #
 #=========================================#
 
+import requests
+
 #Add your webhook urls from the channels you wish to message to. (follow the format)
-urls = ["https://discordapp.com/api/webhooks/721823541535703111/k4I67e-M9p4Bfo3YqdrKUhk7VEt1NUW5DRz3cEhGyhiBE_jCwHjwU641VwejZ-8IzhPS", "https://discordapp.com/api/webhooks/722117835983421561/XBJpJ2zfPSoYoVHpx7xTLkIqGDkAhWIrM5BavHtfiem9PoKUUEJfvM6X9jAB477bn0qN" ]
+urls = ["https://discordapp.com/api/webhooks/blah/blah", "https://discordapp.com/api/webhooks/blah/blah" ]
 
 #You can change the bot name here.
 botname = "N3my's Bot"
@@ -21,8 +22,6 @@ if message == "1":
 #elif message == "blah":
 #    message = "blah blah blah"
     
-else:
-    continue
 
 #This is fun part, goes through each url in the list and sends the message to each channel.
 for x in range(len(urls)):
